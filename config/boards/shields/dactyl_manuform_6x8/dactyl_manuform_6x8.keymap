@@ -55,7 +55,7 @@
                 ___             ___		        &kp TAB             &kp Q 		    &kp W 		    &kp E 		    &kp R 		    &kp T  	         	    &kp Y 		    &kp U 		    &kp I 		    &kp O 		    &kp P 		        &kp DE_U_UMLAUT 	&kp DE_PLUS
                 ___             ___ 		    &kp DE_LT  			&kp A	 	    &kp S 		    &kp D 		    &kp F 		    &kp G            	    &kp H 		    &kp J 		    &kp K  		    &kp L 		    &kp DE_O_UMLAUT     &kp DE_A_UMLAUT 	&kp DE_HASH
                 ___             &kp LCTRL	    &kp LSHIFT	        &kp Z 	 	    &kp X 		    &kp C		    &kp V	 	    &kp B            	    &kp N 		    &kp M 		    &kp COMMA	    &kp DOT		    &kp DE_MINUS        &kp LSHIFT 	    	&kp ENTER
-                                                                                    &kp LWIN 	    &kp LALT 	    &spc_bspc       ___      		        &mo DVC		    &mo ADJ         &kp &mkp LCLK   &spc_bspc       &mo ALTGR           &kp RCTRL 
+                                                                                    &kp LWIN 	    &kp LALT 	    &spc_bspc       ___      		        &mo DVC		    &mo ADJ         &mkp LCLK       &spc_bspc       &mo ALTGR           &kp RCTRL 
 																	                &mo ADJ	        &mo DVC	        &mo ALTGR 	    ___        	 			    	 			
             >;
         };
