@@ -1,7 +1,7 @@
 if SHIELD_DACTYL_MANUFORM_6x8_RIGHT
 
     config ZMK_KEYBOARD_NAME
-        default "DM 6x8"
+        default "DM 6x8 test"
 
     config ZMK_SPLIT_BLE_ROLE_CENTRAL
         default y
