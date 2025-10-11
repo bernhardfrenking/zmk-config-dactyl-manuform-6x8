@@ -17,6 +17,4 @@ include:
     shield: dactyl_manuform_6x8_left
   - board: nice_nano_v2
     shield: dactyl_manuform_6x8_right
-    snippet: zmk-usb-logging
-  - board: nice_nano_v2
-    shield: settings_reset
+    #snippet: zmk-usb-logging
