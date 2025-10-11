@@ -50,7 +50,7 @@
 
         default_layer {
             bindings = <
-				___             ___ 	        &kp ESC 			&kp F1 		    &kp F2 		    &kp F3 		    &kp F4 		    &kp F5             	    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_CLR          &sys_reset          &out OUT_TOG
+				___             ___ 	        &kp ESC 			&kp F1 		    &kp F2 		    &kp F3 		    &kp F4 		    &kp F5             	    &kp F6	 	    &kp F7 		    &kp F8 		    &kp F9 		    &kp F10             &kp F11         	&kp F12
 				___             ___ 		    &kp DE_CARET        &kp N1 		    &kp N2 		    &kp N3 		    &kp N4 		    &kp N5             	    &kp N6 		    &kp N7 		    &kp N8 		    &kp N9 		    &kp N0 		        &sz_question        &kp DEL
                 ___             ___		        &kp TAB             &kp Q 		    &kp W 		    &kp E 		    &kp R 		    &kp T  	         	    &kp Y 		    &kp U 		    &kp I 		    &kp O 		    &kp P 		        &kp DE_U_UMLAUT 	&kp DE_PLUS
                 ___             ___ 		    &kp DE_LT  			&kp A	 	    &kp S 		    &kp D 		    &kp F 		    &kp G            	    &kp H 		    &kp J 		    &kp K  		    &kp L 		    &kp DE_O_UMLAUT     &kp DE_A_UMLAUT 	&kp DE_HASH
@@ -86,8 +86,8 @@
 
         device_layer {
             bindings = <
-				___    		    ___      		___ 		        ___ 		    ___ 		    ___ 		    ___             ___                     &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_CLR          &sys_reset      &out OUT_TOG
-				___    		    ___      		___ 		        ___ 		    ___ 		    ___ 		    ___             ___ 		            &kp W           ___             ___             ___             ___                 ___             ___ 
+				___    		    ___      		___ 		        ___ 		    ___ 		    ___ 		    ___             ___                     &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_SEL 5        &bt BT_CLR      &out OUT_TOG
+				___    		    ___      		___ 		        ___ 		    ___ 		    ___ 		    ___             ___ 		            &kp W           ___             ___             ___             ___                 ___             &sys_reset 
                 ___             ___      		___ 		        ___ 		    ___     	    ___        	    ___          	___ 		            ___             ___ 		 	___ 		    ___       	    ___      		    ___             ___
                 ___             ___      		___ 		        ___ 		    ___     	    ___        	    ___          	___ 		            ___             ___ 		 	___ 		    ___       	    ___      		    ___             ___
                 ___             ___      		___ 		        ___ 		    ___     	    ___        	    ___          	___ 		            ___             ___ 		 	___ 		    ___       	    ___      		    ___             ___
