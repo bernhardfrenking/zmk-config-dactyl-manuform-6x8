@@ -1,3 +1,16 @@
-# Name must be less than 16 characters long!
-config ZMK_KEYBOARD_NAME
-    default "Dactyl6x8"
+if SHIELD_DACTYL_MANUFORM_6x8_RIGHT
+
+    config ZMK_KEYBOARD_NAME
+        default "Dactyl6x8"
+
+    config ZMK_SPLIT_BLE_ROLE_CENTRAL
+        default y
+
+endif
+
+if SHIELD_DACTYL_MANUFORM_6x8_RIGHT || SHIELD_DACTYL_MANUFORM_6x8_LEFT
+
+    config ZMK_SPLIT
+        default y
+
+endif
