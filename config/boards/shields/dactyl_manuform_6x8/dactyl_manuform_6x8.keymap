@@ -1,6 +1,8 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/outputs.h>
 
 /* zmk-nodefree-config */
@@ -9,6 +11,8 @@
 
 /* zmk-locale-generator key header */
 #include "keys_de.h" 
+
+#include "mouse.dtsi"
 
 /* layer shortcuts */
 #define DEFAULT 0
@@ -51,8 +55,8 @@
                 ___             ___		        &kp TAB             &kp Q 		    &kp W 		    &kp E 		    &kp R 		    &kp T  	         	    &kp Y 		    &kp U 		    &kp I 		    &kp O 		    &kp P 		        &kp DE_U_UMLAUT 	&kp DE_PLUS
                 ___             ___ 		    &kp DE_LT  			&kp A	 	    &kp S 		    &kp D 		    &kp F 		    &kp G            	    &kp H 		    &kp J 		    &kp K  		    &kp L 		    &kp DE_O_UMLAUT     &kp DE_A_UMLAUT 	&kp DE_HASH
                 ___             &kp LCTRL	    &kp LSHIFT	        &kp Z 	 	    &kp X 		    &kp C		    &kp V	 	    &kp B            	    &kp N 		    &kp M 		    &kp COMMA	    &kp DOT		    &kp DE_MINUS        &kp LSHIFT 	    	&kp ENTER
-                                                                                    &kp LWIN 	    &kp LALT 	    &spc_bspc       ___      		        &mo DVC		    &mo ADJ         &kp DEL         &spc_bspc       &mo ALTGR           &kp RCTRL 
-																	                &mo ADJ	        &mo DVC	        &mo ALTGR 	    ___        	 			    	 			
+                                                                                    &kp LWIN 	    &kp LALT 	    &spc_bspc       &mkp LCLK  		        &mo DVC		    &mo ADJ         &mkp LCLK       &spc_bspc       &mo ALTGR           &kp RCTRL 
+																	                &mo ADJ	        &mo DVC	        &mo ALTGR 	    &mkp RCLK  	 			    	 			
             >;
         };
 
@@ -82,8 +86,8 @@
 
         device_layer {
             bindings = <
-				___    		    ___      		___ 		        ___ 		    ___ 		    ___ 		    ___             ___                     &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_SEL 5        &bt BT_CLR      &out OUT_TOG
-				___    		    ___      		___ 		        ___ 		    ___ 		    ___ 		    ___             ___ 		            &kp W           ___             ___             ___             ___                 ___             ___ 
+				___    		    ___      		___ 		        ___ 		    ___ 		    ___ 		    &bt BT_CLR      &out OUT_TOG            &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_SEL 5        &bt BT_CLR      &out OUT_TOG
+				___    		    ___      		___ 		        ___ 		    ___ 		    ___ 		    ___             &sys_reset 	            &kp W           ___             ___             ___             ___                 ___             &sys_reset 
                 ___             ___      		___ 		        ___ 		    ___     	    ___        	    ___          	___ 		            ___             ___ 		 	___ 		    ___       	    ___      		    ___             ___
                 ___             ___      		___ 		        ___ 		    ___     	    ___        	    ___          	___ 		            ___             ___ 		 	___ 		    ___       	    ___      		    ___             ___
                 ___             ___      		___ 		        ___ 		    ___     	    ___        	    ___          	___ 		            ___             ___ 		 	___ 		    ___       	    ___      		    ___             ___
