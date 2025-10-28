@@ -86,8 +86,8 @@
 
         device_layer {
             bindings = <
-				___    		    ___      		___ 		        ___ 		    ___ 		    ___ 		    ___             ___                     &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_SEL 5        &bt BT_CLR      &out OUT_TOG
-				___    		    ___      		___ 		        ___ 		    ___ 		    ___ 		    ___             ___ 		            &kp W           ___             ___             ___             ___                 ___             &sys_reset 
+				___    		    ___      		___ 		        ___ 		    ___ 		    ___ 		    &bt BT_CLR      &out OUT_TOG            &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_SEL 5        &bt BT_CLR      &out OUT_TOG
+				___    		    ___      		___ 		        ___ 		    ___ 		    ___ 		    ___             &sys_reset 	            &kp W           ___             ___             ___             ___                 ___             &sys_reset 
                 ___             ___      		___ 		        ___ 		    ___     	    ___        	    ___          	___ 		            ___             ___ 		 	___ 		    ___       	    ___      		    ___             ___
                 ___             ___      		___ 		        ___ 		    ___     	    ___        	    ___          	___ 		            ___             ___ 		 	___ 		    ___       	    ___      		    ___             ___
                 ___             ___      		___ 		        ___ 		    ___     	    ___        	    ___          	___ 		            ___             ___ 		 	___ 		    ___       	    ___      		    ___             ___
