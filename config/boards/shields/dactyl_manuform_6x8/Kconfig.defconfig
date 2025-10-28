@@ -1,0 +1,3 @@
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "Dactyl6x8"
