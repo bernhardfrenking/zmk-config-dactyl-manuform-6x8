@@ -56,7 +56,7 @@
                 &kp LC(V)       ___ 		    &kp DE_LT  			&kp A	 	    &kp S 		    &kp D 		    &kp F 		    &kp G            	    &kp H 		    &kp J 		    &kp K  		    &kp L 		    &kp DE_O_UMLAUT     &kp DE_A_UMLAUT 	&kp DE_HASH
                 &kp ENTER       &kp LALT	    &kp LSHIFT	        &kp Z 	 	    &kp X 		    &kp C		    &kp V	 	    &kp B            	    &kp N 		    &kp M 		    &kp COMMA	    &kp DOT		    &kp DE_MINUS        &kp LSHIFT 	    	&kp ENTER
                                                                                     &kp LWIN 	    &kp LCTRL 	    &spc_bspc       &mkp LCLK  		        &mo DVC		    &mo ADJ         &kp DEL         &spc_bspc       &mo ALTGR           &kp RCTRL 
-																	                &mo ADJ	        &mo RCLK	    &mo ALTGR 	    &mkp MCLK  	 			    	 			
+																	                &mo ADJ	        &mkp RCLK	    &mo ALTGR 	    &mkp MCLK  	 			    	 			
             >;
         };
 
